@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc" xml:lang="en">
+<title id="title">UI Copy: turn explanations into interfaces</title>
+  <desc id="desc">A bold yellow arrow connects a paragraph explaining status filters to All, In progress, and Completed controls beside the project list. In progress is selected and only Brand website is shown. A hand-drawn interface illustration, not a product screenshot.</desc>
+<defs>
+  <radialGradient id="light" cx="86%" cy="34%" r="72%">
+  <stop offset="0" stop-color="#E4B94C" stop-opacity=".19" />
+  <stop offset=".46" stop-color="#537488" stop-opacity=".12" />
+  <stop offset="1" stop-color="#182A35" stop-opacity="0" />
+  </radialGradient>
+  </defs>
+  <g font-family="'Microsoft YaHei','PingFang SC','Segoe UI',sans-serif">
+  <rect x="0" y="0" width="1200" height="650" rx="24" fill="#182A35" />
+  <rect x="0" y="0" width="1200" height="650" rx="24" fill="url(#light)" />
+  <text x="49" y="218" font-size="139" fill="#F7F9F8" font-weight="750" text-anchor="start" font-family="Bahnschrift,Arial Black,Arial,sans-serif" letter-spacing="-6">UI Copy</text>
+  <text x="57" y="304" font-size="48" fill="#F7F9F8" font-weight="650" text-anchor="start">Turn explanations</text>
+  <text x="57" y="382" font-size="48" fill="#F7F9F8" font-weight="650" text-anchor="start">into interfaces.</text>
+  <rect x="58" y="433" width="447" height="139" rx="16" fill="#273B48" stroke="#49606C" stroke-width="2" />
+  <text x="78" y="468" font-size="22" fill="#C3D0D6" font-weight="400" text-anchor="start">Original explanation</text>
+  <text x="78" y="511" font-size="24" fill="#F7F9F8" font-weight="400" text-anchor="start">Filter projects by status to see</text>
+  <text x="78" y="551" font-size="24" fill="#F7F9F8" font-weight="400" text-anchor="start">work in progress or completed.</text>
+  <rect x="570" y="105" width="572" height="390" rx="22" fill="#091923" transform="translate(0 14)" opacity=".5" />
+  <rect x="570" y="105" width="572" height="390" rx="22" fill="#FFFFFF" />
+  <rect x="570" y="105" width="572" height="48" rx="22" fill="#EDF2F4" />
+  <rect x="570" y="130" width="572" height="24" rx="0" fill="#EDF2F4" />
+  <circle cx="595" cy="129" r="5" fill="#9AADB6" />
+  <circle cx="614" cy="129" r="5" fill="#9AADB6" />
+  <circle cx="633" cy="129" r="5" fill="#9AADB6" />
+  <text x="612" y="227" font-size="45" fill="#182A35" font-weight="650" text-anchor="start">My projects</text>
+  <rect x="980" y="186" width="120" height="50" rx="9" fill="#182A35" />
+  <text x="1040" y="219" font-size="24" fill="#FFFFFF" font-weight="600" text-anchor="middle">+ New</text>
+  <rect x="612" y="270" width="488" height="70" rx="12" fill="#EDF2F4" />
+  <rect x="752" y="276" width="179" height="58" rx="9" fill="#F3D46C" />
+  <text x="682" y="316" font-size="26" fill="#182A35" font-weight="400" text-anchor="middle">All</text>
+  <text x="841" y="316" font-size="26" fill="#182A35" font-weight="650" text-anchor="middle">In progress</text>
+  <text x="1014" y="316" font-size="26" fill="#182A35" font-weight="400" text-anchor="middle">Completed</text>
+  <path d="M612 379H1100" stroke="#D7DFE3" stroke-width="2" />
+  <text x="612" y="434" font-size="32" fill="#182A35" font-weight="600" text-anchor="start">Brand website</text>
+  <text x="1100" y="433" font-size="26" fill="#5D6B73" font-weight="400" text-anchor="end">In progress</text>
+  <path d="M474 443C554 443 500 305 577 305H594" fill="none" stroke="#F3D46C" stroke-width="16" stroke-linecap="round" />
+  <path d="M584 280L614 305L584 330Z" fill="#F3D46C" />
+  </g>
+  </svg>

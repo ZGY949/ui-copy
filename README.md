@@ -1,3 +1,5 @@
+[简体中文版](README.md) · [英文版](README.en.md)
+
 <p align="center">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/readme/hero-mobile.svg">
