@@ -75,6 +75,20 @@ AI 做页面时，常用长段文字介绍功能、解释操作、填满空态�
 
 ## 快速开始
 
+### 使用 skills CLI（推荐）
+
+在项目目录中运行：
+
+```bash
+npx skills add ZGY949/ui-copy
+```
+
+按提示选择所用的 AI 工具。默认安装到当前项目；需要跨项目使用时，可在命令末尾加 `-g`，安装到个人技能目录。
+
+运行此命令需要 Node.js 和 npm（包含 npx）。更多选项见 [skills CLI 文档](https://skills.sh/docs/cli)。
+
+### 手动安装
+
 以 Codex 个人安装为例：
 
 **macOS / Linux**
@@ -92,6 +106,8 @@ git clone https://github.com/ZGY949/ui-copy.git "$env:USERPROFILE\.agents\skills
 ```
 
 已安装时更新现有目录，避免重复安装同名技能。技能本体由 Markdown 与 YAML 构成，无需 API Key 或额外运行依赖。
+
+### 使用示例
 
 ```text
 用 $ui-copy 精简这个项目列表页。
