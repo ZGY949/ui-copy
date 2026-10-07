@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1190" viewBox="0 0 1200 1190" role="img" aria-labelledby="title desc">
+  <title id="title">把表单说明放回字段标签和就地提示</title>
+  <desc id="desc">同一新建项目表单的改前与改后示意。改前在表单顶部写一段输入项目名称的说明，输入框缺少独立标签。改后在输入框上方提供项目名称标签，在下方保留最多20个字的限制。两边均已输入品牌官网，并保留创建项目按钮。</desc>
+  <rect width="1200" height="1190" rx="24" fill="#F7F5EE"/>
+  <g font-family="'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" fill="#1E2422">
+    <g id="before">
+      <text x="60" y="71" font-size="40" font-weight="600" fill="#626B65">改前 · 说明集中在表单顶部</text>
+      <rect x="60" y="106" width="1080" height="446" rx="20" fill="#FFFFFF" stroke="#D4D9D2" stroke-width="2"/>
+      <text x="100" y="187" font-size="54" font-weight="600">新建项目</text>
+      <text x="100" y="260" font-size="42" fill="#626B65">请在下方输入项目名称，</text>
+      <text x="100" y="316" font-size="42" fill="#626B65">名称不超过 20 个字。</text>
+      <rect x="100" y="349" width="1000" height="84" rx="12" fill="#FFFFFF" stroke="#AAB3AA" stroke-width="2"/>
+      <text x="124" y="405" font-size="42">品牌官网</text>
+      <rect x="100" y="465" width="254" height="62" rx="12" fill="#137761"/>
+      <text x="227" y="508" text-anchor="middle" font-size="38" font-weight="600" fill="#FFFFFF">创建项目</text>
+    </g>
+    <g id="after">
+      <text x="60" y="651" font-size="40" font-weight="600" fill="#137761">改后 · 标签与限制都跟着字段</text>
+      <rect x="60" y="686" width="1080" height="444" rx="20" fill="#FFFFFF" stroke="#D4D9D2" stroke-width="2"/>
+      <text x="100" y="767" font-size="54" font-weight="600">新建项目</text>
+      <text x="100" y="843" font-size="42" font-weight="600">项目名称</text>
+      <rect x="100" y="866" width="1000" height="84" rx="12" fill="#FFFFFF" stroke="#AAB3AA" stroke-width="2"/>
+      <text x="124" y="922" font-size="42">品牌官网</text>
+      <text x="100" y="1000" font-size="38" fill="#626B65">最多 20 个字</text>
+      <rect x="100" y="1043" width="254" height="62" rx="12" fill="#137761"/>
+      <text x="227" y="1086" text-anchor="middle" font-size="38" font-weight="600" fill="#FFFFFF">创建项目</text>
+    </g>
+  </g>
+</svg>
