@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1000" viewBox="0 0 640 1000" role="img" aria-labelledby="title desc">
+<title id="title">UI Copy：把说明变成界面</title>
+  <desc id="desc">用醒目的暖黄箭头，把解释项目状态的一段说明连接到项目列表旁的全部、进行中、已完成筛选。选中进行中后只展示品牌官网。人工界面示意，不是实际产品截图。</desc>
+<defs>
+  <radialGradient id="light" cx="86%" cy="34%" r="72%">
+  <stop offset="0" stop-color="#E4B94C" stop-opacity=".19"/>
+  <stop offset=".46" stop-color="#537488" stop-opacity=".12"/>
+  <stop offset="1" stop-color="#182A35" stop-opacity="0"/>
+  </radialGradient>
+  </defs>
+  <g font-family="'Microsoft YaHei','PingFang SC','Segoe UI',sans-serif">
+  <rect x="0" y="0" width="640" height="1000" rx="24" fill="#182A35" />
+  <rect x="0" y="0" width="640" height="1000" rx="24" fill="url(#light)" />
+  <text x="38" y="146" font-size="116" fill="#F7F9F8" font-weight="750" text-anchor="start" font-family="Bahnschrift,Arial Black,Arial,sans-serif" letter-spacing="-5">UI Copy</text>
+  <text x="42" y="228" font-size="49" fill="#F7F9F8" font-weight="650" text-anchor="start" >把说明变成界面。</text>
+  <rect x="40" y="281" width="560" height="153" rx="18" fill="#273B48" stroke="#49606C" stroke-width="2" />
+  <text x="62" y="323" font-size="26" fill="#C3D0D6" font-weight="400" text-anchor="start" >原来的说明</text>
+  <text x="62" y="370" font-size="34" fill="#F7F9F8" font-weight="400" text-anchor="start" >你可以按项目状态筛选列表，</text>
+  <text x="62" y="415" font-size="34" fill="#F7F9F8" font-weight="400" text-anchor="start" >查看进行中或已完成的项目。</text>
+  <path d="M302 456H338V490H360L320 532L280 490H302Z" fill="#F3D46C"/>
+  <rect x="40" y="565" width="560" height="365" rx="22" fill="#FFFFFF" />
+  <rect x="40" y="565" width="560" height="48" rx="22" fill="#EDF2F4" />
+  <rect x="40" y="590" width="560" height="24" rx="0" fill="#EDF2F4" />
+  <circle cx="63" cy="589" r="5" fill="#9AADB6"/>
+  <circle cx="82" cy="589" r="5" fill="#9AADB6"/>
+  <circle cx="101" cy="589" r="5" fill="#9AADB6"/>
+  <text x="74" y="690" font-size="47" fill="#182A35" font-weight="650" text-anchor="start" >我的项目</text>
+  <rect x="74" y="730" width="492" height="76" rx="13" fill="#EDF2F4" />
+  <rect x="220" y="736" width="174" height="64" rx="10" fill="#F3D46C" />
+  <text x="146" y="780" font-size="36" fill="#182A35" font-weight="400" text-anchor="middle" >全部</text>
+  <text x="307" y="780" font-size="36" fill="#182A35" font-weight="650" text-anchor="middle" >进行中</text>
+  <text x="480" y="780" font-size="36" fill="#182A35" font-weight="400" text-anchor="middle" >已完成</text>
+  <path d="M74 843H566" stroke="#D7DFE3" stroke-width="2"/>
+  <text x="74" y="903" font-size="38" fill="#182A35" font-weight="600" text-anchor="start" >品牌官网</text>
+  <text x="566" y="902" font-size="30" fill="#5D6B73" font-weight="400" text-anchor="end" >进行中</text>
+  </g>
+  </svg>

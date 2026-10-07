@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="UI Copy：减少 AI 页面中的说明文字。把一段解释筛选方式的文字，变成项目列表旁的状态筛选控件。">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/readme/hero-mobile.svg">
+    <img src="./assets/readme/hero.svg" width="100%" alt="UI Copy：把说明变成界面。将解释状态筛选的一段文字，转为项目列表旁的全部、进行中、已完成选项，并展示筛选结果。">
+  </picture>
 </p>
 
 # UI Copy
@@ -12,7 +15,7 @@ AI 做页面时，常用长段文字介绍功能、解释操作、填满空态�
 
 ## 它解决这样的页面问题
 
-下面用同一组项目和表单做改前／改后对照，说明文字如何回到界面。图片是页面示意，完整的交互仍需要在具体项目中实现。
+下面用同一组项目和表单做改前／改后对照，说明文字如何回到界面。暖黄色标出需要处理的文字或新的信息位置。图片是人工绘制的页面示意，完整的交互仍需要在具体项目中实现。
 
 ### 一个短语就够
 
