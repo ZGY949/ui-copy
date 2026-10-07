@@ -1,33 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-  <title id="title">UI Copy：减少说明，让交互承接解释</title>
-  <desc id="desc">将解释项目状态筛选的一段文字，转为列表附近的“全部、进行中、已完成”三个状态筛选项。此图为界面呈现示意。</desc>
-  <rect width="1200" height="420" rx="24" fill="#F7F5EE"/>
-
-  <g id="identity" font-family="'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
-    <text x="60" y="66" font-size="22" font-weight="600" letter-spacing="1.8" fill="#626B65">CONTENT + INTERACTION</text>
-    <text x="53" y="197" font-size="116" font-weight="650" letter-spacing="-4" fill="#1E2422">ui-copy</text>
-    <text x="60" y="267" font-size="46" font-weight="600" fill="#1E2422">减少说明文字</text>
-    <text x="62" y="311" font-size="28" fill="#626B65">让信息回到界面，让操作更直接。</text>
-  </g>
-
-  <g id="paragraph-to-controls" font-family="'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
-    <text x="710" y="72" font-size="22" fill="#626B65">一段说明</text>
-    <text x="710" y="115" font-size="27" fill="#626B65">你可以按照项目的状态，</text>
-    <text x="710" y="151" font-size="27" fill="#626B65">筛选进行中或已完成的项目，</text>
-    <text x="710" y="187" font-size="27" fill="#626B65">找到需要处理的内容。</text>
-    <path d="M1105 189v43m-8-9 8 9 8-9" fill="none" stroke="#137761" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="710" y="256" font-size="38" font-weight="600" fill="#1E2422">项目</text>
-    <text x="1138" y="254" text-anchor="end" font-size="22" fill="#626B65">交互示意</text>
-    <rect x="710" y="278" width="428" height="56" rx="14" fill="none" stroke="#1E2422" stroke-width="1.5" opacity="0.18"/>
-    <rect x="808" y="283" width="158" height="46" rx="10" fill="#137761"/>
-    <text x="759" y="315" text-anchor="middle" font-size="32" fill="#1E2422">全部</text>
-    <text x="887" y="315" text-anchor="middle" font-size="32" font-weight="600" fill="#F7F5EE">进行中</text>
-    <text x="1052" y="315" text-anchor="middle" font-size="32" fill="#1E2422">已完成</text>
-  </g>
-
-  <g id="scope" font-family="'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
-    <path d="M60 354h1080" stroke="#1E2422" stroke-width="1" opacity="0.14"/>
-    <text x="62" y="388" font-size="22" fill="#626B65">删重复 · 缩表达 · 放对位 · 转交互</text>
-    <text x="1138" y="388" text-anchor="end" font-size="21" fill="#137761">MIT · AGENT SKILL</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">UI Copy：减少说明文字，让信息回到界面</title>
+  <desc id="desc">右侧呈现示意：把解释项目状态筛选的一段文字，通过明显的向下箭头，转为全部、进行中、已完成三个筛选项。具体页面需要实现筛选行为。</desc>
+  <rect width="1200" height="470" rx="24" fill="#F7F5EE"/>
+  <g font-family="'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif">
+    <g id="title-block" fill="#1E2422">
+      <text x="60" y="67" font-size="22" letter-spacing="1.8" fill="#626B65">CONTENT + INTERACTION</text>
+      <text x="53" y="205" font-size="116" font-weight="650" letter-spacing="-4">ui-copy</text>
+      <text x="60" y="281" font-size="46" font-weight="600">减少说明文字</text>
+      <text x="62" y="326" font-size="28" fill="#626B65">让信息回到界面，让操作更直接。</text>
+    </g>
+    <g id="explanation-before">
+      <rect x="640" y="40" width="500" height="150" rx="16" fill="#EAECE5"/>
+      <text x="664" y="78" font-size="25" fill="#626B65">原来的说明</text>
+      <text x="664" y="122" font-size="28" fill="#1E2422">你可以按项目状态筛选列表，</text>
+      <text x="664" y="163" font-size="28" fill="#1E2422">查看进行中或已完成的项目。</text>
+    </g>
+    <g id="conversion" fill="none" stroke="#137761" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M888 210v55m-20-20 20 20 20-20"/>
+    </g>
+    <text x="930" y="247" font-size="26" font-weight="600" fill="#137761">转成操作</text>
+    <g id="controls-after">
+      <text x="664" y="314" font-size="36" font-weight="600" fill="#1E2422">项目</text>
+      <text x="1138" y="311" text-anchor="end" font-size="22" fill="#626B65">状态筛选</text>
+      <rect x="664" y="335" width="474" height="59" rx="14" fill="#FFFFFF" stroke="#D4D9D2" stroke-width="2"/>
+      <rect x="781" y="341" width="174" height="47" rx="10" fill="#137761"/>
+      <text x="722" y="375" text-anchor="middle" font-size="32" fill="#1E2422">全部</text>
+      <text x="868" y="375" text-anchor="middle" font-size="32" font-weight="600" fill="#FFFFFF">进行中</text>
+      <text x="1047" y="375" text-anchor="middle" font-size="32" fill="#1E2422">已完成</text>
+    </g>
+    <g id="metadata">
+      <path d="M60 416h1080" stroke="#1E2422" stroke-opacity=".14"/>
+      <text x="62" y="450" font-size="22" fill="#626B65">删重复 · 缩表达 · 放对位 · 转交互</text>
+      <text x="1138" y="450" text-anchor="end" font-size="21" fill="#137761">呈现示意 · MIT · AGENT SKILL</text>
+    </g>
   </g>
 </svg>
