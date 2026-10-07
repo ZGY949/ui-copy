@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="940" viewBox="0 0 1200 940" role="img" aria-labelledby="title desc">
+  <title id="title">标题与列表已经说清楚的事，不再写一段介绍</title>
+  <desc id="desc">同一个项目列表的改前与改后示意。改前在项目标题下重复介绍查看和管理项目。改后用我的项目作为标题，直接展示相同的品牌官网和产品手册两条记录，保留新建项目入口。</desc>
+  <rect width="1200" height="940" rx="24" fill="#F7F5EE"/>
+  <g font-family="'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" fill="#1E2422">
+    <g id="before">
+      <text x="60" y="71" font-size="40" font-weight="600" fill="#626B65">改前 · 介绍重复了标题和列表</text>
+      <rect x="60" y="106" width="1080" height="390" rx="20" fill="#FFFFFF" stroke="#D4D9D2" stroke-width="2"/>
+      <text x="100" y="187" font-size="54" font-weight="600">项目</text>
+      <rect x="880" y="145" width="220" height="60" rx="12" fill="#137761"/>
+      <text x="990" y="187" text-anchor="middle" font-size="36" font-weight="600" fill="#FFFFFF">＋ 新建项目</text>
+      <text x="100" y="260" font-size="42" fill="#626B65">在这里，你可以查看和管理</text>
+      <text x="100" y="316" font-size="42" fill="#626B65">自己创建的所有项目。</text>
+      <path d="M100 348h1000M100 420h1000" stroke="#E5E8E2" stroke-width="2"/>
+      <text x="100" y="398" font-size="42">品牌官网</text>
+      <text x="1100" y="396" text-anchor="end" font-size="36" fill="#626B65">进行中</text>
+      <text x="100" y="470" font-size="42">产品手册</text>
+      <text x="1100" y="468" text-anchor="end" font-size="36" fill="#626B65">已完成</text>
+    </g>
+    <g id="after">
+      <text x="60" y="591" font-size="40" font-weight="600" fill="#137761">改后 · 一个标题，直接进入内容</text>
+      <rect x="60" y="626" width="1080" height="254" rx="20" fill="#FFFFFF" stroke="#D4D9D2" stroke-width="2"/>
+      <text x="100" y="707" font-size="54" font-weight="600">我的项目</text>
+      <rect x="880" y="665" width="220" height="60" rx="12" fill="#137761"/>
+      <text x="990" y="707" text-anchor="middle" font-size="36" font-weight="600" fill="#FFFFFF">＋ 新建项目</text>
+      <path d="M100 742h1000M100 814h1000" stroke="#E5E8E2" stroke-width="2"/>
+      <text x="100" y="792" font-size="42">品牌官网</text>
+      <text x="1100" y="790" text-anchor="end" font-size="36" fill="#626B65">进行中</text>
+      <text x="100" y="864" font-size="42">产品手册</text>
+      <text x="1100" y="862" text-anchor="end" font-size="36" fill="#626B65">已完成</text>
+    </g>
+  </g>
+</svg>
